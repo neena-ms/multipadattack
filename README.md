@@ -1,6 +1,6 @@
-This is a **Multi Pad Attacker**, a solution for programming assignment-1 of Cryptography-I course by Stanford University on Coursera.
+This is a **Many Time Pad Attacker**, a solution for programming assignment-1 of Cryptography-I course by Stanford University on Coursera.
 
-The system aims to show how using the same key for one time pad encryption, making it "multi pad", compromises the security of the communication. Assuming we have a few ciphertexts and a target ciphertext which we want to decode, all encrypted using the same key (ciphertext = message xor key), we can find the key and use it to decode all the messages.
+The system aims to show how using the same key for one time pad encryption, making it "many time pad", compromises the security of the communication. Assuming we have a few ciphertexts and a target ciphertext which we want to decode, all encrypted using the same key (ciphertext = message xor key), we can find the key and use it to decode all the messages.
 
 The system has two workings:
 1. User inputs ciphertexts and target ciphertext
